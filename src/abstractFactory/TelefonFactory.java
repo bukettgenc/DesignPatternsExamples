@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package designpatterns;
-
-import singleton.Singleton;
+package abstractFactory;
 
 /**
  *
  * @author buket.genc
  */
-public class DesignPatterns {
+public interface TelefonFactory {
 
-    public static void main(String[] args) {
-      
-
-    }
-
+    Telefon getTelefon(String model, String batarya, int en, int boy);
 }

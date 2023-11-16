@@ -42,4 +42,10 @@ public class Note8 implements Telefon {
     public int getBoy() {
         return boy;
     }
+
+    @Override
+    public String toString() {
+        return "Note8{" + "model=" + model + ", batarya=" + batarya + ", en=" + en + ", boy=" + boy + '}';
+    }
+    
 }
